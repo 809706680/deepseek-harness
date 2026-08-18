@@ -1,0 +1,9 @@
+# Obsidian work-assistant bundle patch: two rows, one host service and one
+# browser client module. A patch replaces the targeted row's whole config, so
+# rows here restate every key they own.
+- insert:
+    - id: obsidian-vault
+      name: '@deepseek-ai/dsh-obsidian-vault'
+
+    - id: obsidian-assistant
+      name: '@deepseek-ai/dsh-client-obsidian-assistant'
